@@ -1,4 +1,13 @@
-import my from "./main.js";
+import "./rectApp.jsx";
+import my from "./my.js";
 import "../stylesheets/main.scss";
-console.log("aaaa");
+
+import Vue from "vue";
+import VueApp from "./VueApp.vue";
+
+new Vue({
+  el: "#vue-root",
+  render: (h) => h(VueApp),
+});
+console.log("This is main.js");
 my();

@@ -1,22 +1,23 @@
 import ReactDom from "react-dom";
 import * as React from "react";
-import styled from "styled-components";
+// import styled from "styled-components";
 
-//import Alert from "./Alert.tsx";
+// import Alert from "./Alert.tsx";
 
-const AppContainer = styled.div`
-  p {
-    margin-bottom: 0.5em;
-    font-weight: bold;
-    color: green;
-  }
-`;
+// const AppContainer = styled.div`
+//   p {
+//     margin-bottom: 0.5em;
+//     font-weight: bold;
+//     color: green;
+//   }
+// `;
 
 const App = (props) => {
   return (
-    <AppContainer>
+    <div>
       <p>Hello, React App!!!!!!</p>
-    </AppContainer>
+      {/* <Alert message="Success!" /> */}
+    </div>
   );
 };
 

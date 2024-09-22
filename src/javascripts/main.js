@@ -1,2 +1,2 @@
-import "./rectApp.jsx";
+import "./reactApp.jsx";
 import "../stylesheets/main.scss";
